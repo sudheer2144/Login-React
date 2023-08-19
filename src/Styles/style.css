@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #333;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 1rem;
+    background-image: url("../Background/Background\ Patternbcg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#login-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    width: 30%;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+}
+
+#input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+input {
+    border: 1px solid #DEDEDE;
+}
+
+button {
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(#625BF7, #463EEA);
+    border: none;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+.samesize {
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../Background/Background\ Patternbcg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile-container {
+    width: 30%;
+    border-radius: 4px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.profile-container h3 {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+img {
+    width: 40%;
+}
+
+@media(max-width:1080px) {
+    .container {
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .profile-container {
+        width: 70%;
+    }
+
+    #login-container {
+        width: 70%;
+    }
+}
